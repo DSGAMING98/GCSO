@@ -28,12 +28,12 @@ if(wall.x-car.x < (car.width+wall.width)/2)
 
   
   if(deformation<180 && deformation>100) {
-  car.shapeColor="CYAN"; 
+  car.shapeColor="RED"; 
 }
   
   if(deformation<100)
   {
-    car.shapeColor="LIME";
+    car.shapeColor="RED";
   }
   }
   drawSprites();
